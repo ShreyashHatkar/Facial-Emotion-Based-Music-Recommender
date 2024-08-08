@@ -1,0 +1,12 @@
+# Exclude node_modules to avoid deploying dependencies
+node_modules/
+myenv/
+
+# Exclude other unnecessary files
+*.log
+*.tmp
+*.cache
+build/
+dist/
+*.git
+*.env
